@@ -1,0 +1,152 @@
+
+
+#loginContain{
+  min-height: 750px;
+  height: 100%;
+
+  /* outline: 1px solid red; */
+  margin-top: -49px;
+  margin-bottom:-16px;
+  padding-top: 100px;
+background: linear-gradient(0deg,
+     rgba(246, 235, 189, 1) 0%,
+     rgba(189, 229, 251, 1) 100%);
+     }
+
+#logoContain{
+clear: both;
+  width: 300px;
+  min-height: 60px;
+  margin: 50px auto 50px;
+  /* outline: 1px solid red; */
+}
+
+#loginForm{
+  clear: both;
+  font-family:quicksand,arial,sans-serif;
+  width: 45vw;
+  min-height: 300px;
+  margin: 50px auto 0px;
+  background-color: white;
+  border-radius: 6px;
+  padding: 30px;
+}
+
+#loginForm h2{
+  font-family:oswald,arial,sans-serif;
+  transform:scale(1,.9);
+
+}
+
+#loginForm .btn.btn-primary{
+  font-family:oswald,arial,sans-serif;
+  transform:scale(1,.9);
+  background-color:#cd0000;
+
+}
+#loginForm .btn.btn-primary:hover{
+  font-family:oswald,arial,sans-serif;
+  transform:scale(1,.9);
+  background-color:#ea3200;
+
+}
+
+#lockContain{
+/* outline: 1px solid red; */
+width: 16%;
+float:left;
+position: relative;
+top:5px;
+}
+
+#loginlock
+{
+position: absolute;
+bottom:-40px;
+  z-index: 2;
+}
+
+#loginlockBar
+{
+position: absolute;
+width:100%;
+  z-index: 1;
+  top:-27px;
+  left:2px;
+}
+
+#loginlock img
+{
+  width: 100%;
+}
+
+#loginlockBar img
+{
+width: 90%;
+
+}
+
+#logoText{
+width: 77%;
+float:right;
+}
+
+#logoText img
+{
+width: 100%;
+
+}
+
+.lockmove{
+animation: lockmove .5s;
+animation-fill-mode: forwards;
+}
+.lockbarmove{
+  animation: lockbarmove .5s;
+  animation-fill-mode: forwards;
+  }
+
+
+  @keyframes lockbarmove {
+    0%{top:-27px;}
+    100%{top:-34px;}
+
+  }
+
+  @keyframes lockmove {
+    0%{bottom:-40px;}
+    100%{bottom:-51px;}
+
+  }
+
+@media only screen and (min-width:401px) and (max-width:1000px){
+
+#loginForm{
+    width: 70vw;
+}
+
+}
+
+@media only screen and (max-width:400px){
+
+#logoContain{
+  width: 215px;
+ margin-top: -75px;
+  margin-bottom:70px;
+  padding-top: 80px;
+}
+
+#loginlockBar
+{
+position: absolute;
+width:100%;
+  z-index: 1;
+  top:-18px;
+  left:1px;
+}
+
+#loginForm{
+    width: 85vw;
+}
+
+}
