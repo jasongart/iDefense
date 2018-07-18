@@ -1,0 +1,143 @@
+.searchContain{
+  margin: 20px auto;
+  width: 89.5vw;
+  min-height: 750px;
+  height: 100%;
+  padding-bottom: 100px;
+}
+
+.searchResult{
+  margin: 20px 0 20px 0;
+
+  padding: 10px 0 10px 0;
+  border-bottom: .75px solid #cbcbcb;
+}
+
+.searchContain h2 , .searchContain h3{
+  font-family: Oswald, Arial, sans-serif;
+  transform: scale(1, .9);
+}
+
+.searchResult p {
+  font-family: Quicksand, arial, sans-serif;
+}
+
+.searchResult p a {
+  text-decoration:none;
+}
+
+.searchResult p a:hover {
+  text-decoration:underline;
+}
+
+ul.pagination{
+  margin: 0 auto;
+}
+
+.pagination li{
+  margin-right: 1.5%;
+}
+
+/* #searchPgTwo, #searchPgThree{
+  display: none;
+} */
+
+a.page-link{
+  border: 0px;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    background-color: rgba(255, 0, 0, 0);
+    z-index: 2;
+}
+
+a.page-link.active {
+  background-color: #83b89d;
+  color:white;
+  transform: scale(1.25,1.25);
+  border: 0px;
+  margin-right:2px;
+}
+
+/* a.page-link:focus{
+  outline:none;
+} */
+
+.page-link:hover {
+  color:gray;
+  background-color: rgba(200,200,200,1);
+  transform: scale(1.25,1.25);
+  border: 0px;
+  margin-right:2px;
+}
+
+#currentPage{
+  width: 40px;
+  height: 40px;
+  z-index:1;
+  background-color: #83b89d;
+  position: absolute;
+  left:11%;
+}
+
+.moveToOneTwo{
+  animation: moveOneTwo .5s;
+  animation-fill-mode: forwards;
+}
+
+.moveToOneThree{
+  animation: moveOneThree .5s;
+  animation-fill-mode: forwards;
+}
+
+.moveToTwoOne{
+  animation: moveTwoOne .5s;
+  animation-fill-mode: forwards;
+}
+
+.moveToTwoThree{
+  animation: moveTwoThree .5s;
+  animation-fill-mode: forwards;
+}
+
+.moveToThreeOne{
+  animation: moveThreeOne .5s;
+  animation-fill-mode: forwards;
+}
+
+.moveToThreeTwo{
+  animation: moveThreeTwo .5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes moveOneTwo {
+0%{left:16.75%}
+  100% {left:11%}
+}
+
+@keyframes moveOneThree {
+  0% {left:22.75%}
+  100% {left:11%}
+}
+
+@keyframes moveTwoOne {
+  0% {left:11%}
+  100% {left:16.75%}
+
+}
+
+@keyframes moveTwoThree {
+0% {left:22.75%}
+  100% {left:16.75%}
+
+}
+
+@keyframes moveThreeOne {
+  0% {left:11%}
+  100% {left:22.75%}
+
+}
+@keyframes moveThreeTwo {
+  0%{left:16.75%}
+  100% {left:22.75%}
+
+}

@@ -1,0 +1,361 @@
+/* div.row div {outline: 1px solid red;} */
+
+body, html{
+  height:100%;
+}
+
+#topNav{
+  /* outline: 1px solid red; */
+  width:100vw;
+  background-color: black;
+  font-family: Quicksand, Arial, sans-serif;
+  min-height:60px;
+  /* width: 100vw;
+  height: 100px;
+  vertical-align: middle; */
+
+}
+
+#topNav a{color:white;}
+#topNav a:hover{color:gray;}
+
+#tryItNav a:hover, #signInNav a:hover
+{
+  color:white;
+  text-decoration:none;
+}
+
+img#logo{
+width: 150px;
+margin: -5px 0 0;
+
+}
+
+#topNav button{margin-left:20px;}
+
+
+#topNav ul li a{color: white;}
+
+li.nav-item{
+    margin: 0 0 0 18px;
+}
+
+a.dropdown-item{color:black;}
+
+#tryItNav{
+  background-color: #cd0000;
+  text-transform: uppercase;
+  font-family: Oswald, Arial, sans-serif;
+  font-weight: 600;
+  transform:scale(1,.9);
+  color:white;
+  border:none;
+  padding: 10px;
+  border-radius: 3px;
+}
+
+#tryItNav:hover{
+  background-color: #ea3200;
+}
+
+#signInNav{
+  border:1px solid white;
+  background-color:black;
+  color:white;
+  padding:7px 15px 7px 15px;
+  border-radius: 3px;
+}
+
+#signInNav:hover, #tryItNav:hover{cursor: pointer;}
+
+#tryItNav:focus, #signInNav:focus
+{outline:none;}
+
+#searchbar{}
+#searchbutton{border: 1px solid #4fac91; position:relative; left:-20px}
+#searchbutton:hover {background-color:#4fac91; color:white;}
+#searchbutton a:hover {color:white; text-decoration: none;}
+
+.dropdown-menu{background-color:#6d6e71;}
+a.dropdown-item:hover{color:red;}
+
+#heroContain{
+   width: 100vw;
+   height: 600px;
+   /*min-height: 1100px;
+    margin-bottom:-20px;
+   height: 100%;
+   clear:both; */
+   background-image: url("../images/homebg.jpg");
+   background-size: cover;
+   /* background: linear-gradient(0deg,
+        rgba(246, 235, 189, 1) 0%,
+        rgba(189, 229, 251, 1) 100%); */
+
+ }
+
+#heroText{
+  width: 45vw;
+  margin-left: 47px;
+}
+
+ h1.display-4{
+   font-family: Oswald, Arial, sans-serif;
+   font-weight: 900;
+   transform:scale(1,.9);
+   -webkit-transform:scale(1,.9);
+   /* margin: 100px 0 0 110px; */
+   text-transform: uppercase;
+   font-size: 60px;
+   line-height: 1.25em;
+
+ }
+
+ p.lead{
+   font-family: Quicksand, Arial, sans-serif;
+   font-size: 24px;
+   line-height: 1.5em;
+   /* margin: 50px 0 0 110px; */
+   font-weight: 400;
+ }
+
+ a#homeCTATryIt, a#homeCTALearn {
+
+   margin-right: 10px;
+   border-radius: 3px;
+   font-size: 20px;
+   font-family: Oswald, Arial,san-serif;
+   font-weight: 600;
+   text-transform: uppercase;
+   letter-spacing: .02em;
+   transform:scale(1,.9);
+   -webkit-transform:scale(1,.9);
+   color: white;
+
+ }
+
+
+
+ a#homeCTATryIt{
+   background-color: #cd0000;
+
+ }
+
+ a#homeCTALearn{
+ background-color: #4fac91;
+ }
+
+ a#homeCTATryIt:hover{
+   background-color: #ea3200;
+   cursor: pointer;
+ }
+
+ a#homeCTALearn:hover{
+ background-color: #7eb79d;
+   cursor: pointer;
+ }
+
+ #contentContain{
+    width: 100vw;
+    height:100%;
+
+
+  }
+
+.btn-primary{
+    font-size: 16px;
+    letter-spacing: .02em;
+    text-align: center;
+    bottom:25px;
+
+}
+
+
+#modalPromo{position:relative;
+width: 300px;
+height:300px;
+top:175px;
+padding:20px;
+display:table-cell;
+text-align: center;
+vertical-align:middle;
+font-family:Quicksand, Arial, sans-serif;
+font-size:26px;
+}
+
+#discount{
+font-family:Quicksand, Arial, sans-serif;
+margin: 15px 0 15px 0;}
+
+#modalPromo span{font-weight:800; color:#ea3200;
+}
+
+
+
+/* WHAT IS ID THEFT STYLES */
+
+
+#idTheftExplained{
+  min-height: 300px;
+  /* outline: 0px solid red; */
+  margin-top: -32px;
+  margin-bottom:0px;
+  background-color:#363636;
+  padding: 0px 20px 125px 20px;
+
+}
+
+.tab-pane{padding-top:40px; color:white;}
+
+.tab-pane h2, .tab-pane h4{
+  font-family:Oswald, arial, sans-serif;
+  margin-bottom:40px;
+  transform: scale(1, .9);
+  }
+
+  .tab-pane p{
+  font-family:Quicksand, arial, sans-serif;
+
+  }
+
+  .nav-link{color:white; font-family:quicksand,arial,sans-serif;}
+    .nav-link:hover{color:white; text-decoration:underline;}
+
+#whatIsIdTheftHead{
+  width: 50vw;
+  height:10%;
+  text-align: center;
+  margin: 0 auto;
+  background-color: white;
+  outline: 0px solid gray;
+  position: relative;
+  top:-40px;
+  box-shadow: 0px 1px 10px #cccccc;
+  padding: 15px;
+}
+
+#whatIsIdTheftHead h3{
+  font-size: 28px;
+  font-weight: 400;
+  font-family: Oswald, arial, sans-serif;
+  transform: scale(1, .9);
+  line-height: 1.25em;
+  margin-bottom: 0px;
+
+}
+
+#whatIsIdTheftHead h3 span{
+  font-weight: 600;
+}
+
+#whatIsIdTheftHead p a{
+  font-size: 22px;
+  font-family: Quicksand, arial, sans-serif;
+  font-weight: 400;
+
+}
+
+
+/* HOW IT WORKS STYLES */
+
+
+
+#howItWorks{
+  position:relative;
+  top:32px;
+  height: 600px;
+  /* outline: 0px solid red; */
+  margin-top: -32px;
+  margin-bottom:0px;
+  padding-top:0px;
+  padding-bottom:50px;
+  background: linear-gradient(180deg,
+       rgba(200, 200, 200, .8) 0%,
+       rgba(255, 255, 255, 1) 15%,
+        rgba(200, 200, 200, .5) 100%);
+}
+
+#howSlides{
+  width:60vw;
+  margin:0 auto;
+}
+
+#howItWorksHead{
+  width: 50vw;
+  height:10%;
+  text-align: center;
+  margin: 0 auto;
+  background-color: white;
+  outline: 0px solid gray;
+  position: relative;
+  top:-40px;
+  box-shadow: 0px 1px 10px #cccccc;
+  padding: 15px;
+}
+
+#howItWorksHead h3{
+  font-size: 28px;
+  font-weight: 400;
+  font-family: Oswald, arial, sans-serif;
+  transform: scale(1, .9);
+  line-height: 1.25em;
+  margin-bottom: 0px;
+
+}
+
+#howItWorksHead h3 span{
+  font-weight: 600;
+}
+
+#howItWorksHead p a{
+  font-size: 22px;
+  font-family: Quicksand, arial, sans-serif;
+  font-weight: 400;
+
+}
+
+#howItWorks h5{
+  color:black;
+  font-family: Oswald, Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 28px;
+
+}
+
+#howItWorks p{
+  font-family: Quicksand, Arial, sans-serif;
+color:black;
+font-size: 24px;
+}
+
+.carousel-caption{
+  clear:both;
+}
+
+/* .carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  border: 1px solid black;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: red;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: red;
+} */
+
+footer {background-color:black; color:white; min-height:40px; position: relative; top:8px; */}
+
+footer h2 {font-size: 12px; padding-top: 10px;}

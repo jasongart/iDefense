@@ -1,0 +1,185 @@
+
+div.desktop {display: block; padding-bottom: 100px;}
+div.mobile {display: none;}
+
+@media only screen and (max-width:767px) {
+    div.mobile {display: block;}
+    div.desktop {display: none;}
+    .btn-primary {left:8%;}
+}
+
+@media only screen and (min-width:767px) and (max-width:991px) {
+h3.card-header.cost{font-size:40px; margin-top:-15px;}
+    #plan25K{height: 130px;}
+    }
+
+    @media only screen and (max-width:767px) {
+        div.mobile {display: block;}
+        div.desktop {display: none;}
+        .btn-primary {left:8%;}
+    }
+
+
+
+@media only screen and (min-width:1500px){
+#heroContain{height:850px;}
+
+h1.display-4{
+   font-size: 84px;
+    }
+
+ p.lead{
+   font-size: 38px;
+
+ }
+
+
+#howItWorksHead{width:36vw;}
+
+#howItWorksHead h3{font-size:40px;}
+
+#howItWorksHead p a{font-size:24px;}
+
+}
+
+
+@media only screen and (max-width:1150px){
+#howSlides{
+
+  width:100vw;
+  /* border:1px solid red; */
+}
+
+.carousel-item{top:-20px;}
+
+}
+
+
+
+@media only screen and (max-width:815px){
+#heroContain{height:800px;background-image: url("../images/homebg-3.jpg");}
+
+#heroText{width:100vw;text-align:center; margin-left:0;padding:0 20px;}
+}
+
+
+@media only screen and (max-width:525px){
+#howItWorks{
+  height:460px;
+}
+
+#howSlides{
+  height:500px;
+  padding-top:0px;
+}
+
+#howItWorksHead{top:-60px; height:135px; width:60vw;}
+
+#heroContain{height:700px;background-image: url("../images/homebg-3.jpg");}
+
+.carousel-item{top:-40px;
+  /* border:1px solid red;  */
+  height:300px;
+  padding-top:16px;}
+
+.carousel-caption{top:150px;}
+
+h1.display-4{
+   font-size: 40px;
+   line-height:1.1em;
+    }
+
+ p.lead{
+   font-size: 16px;
+
+ }
+
+}
+
+
+/* The following are to control the placement of the text in the carousel */
+
+@media only screen and (min-width:401px) and (max-width:660px){
+    #howItWorks h5{
+    font-size: 24px;
+    }
+
+    #howItWorks p{
+    font-size: 16px;
+    font-weight:500;
+    }
+    h1.display-4{font-size:44px;}
+    .carousel-caption{top:140px;}
+
+    }
+
+@media only screen and (max-width:400px){
+  #howItWorks h5{
+    font-size: 24px;
+    }
+
+    #howItWorks p{
+    font-size: 16px;
+    font-weight:500;
+    }
+h1.display-4{font-size:32px;}
+p.lead {font-size:15px;}
+
+a#homeCTATryIt, a#homeCTALearn {font-size:16px;}
+
+p#discount {font-size:14px;}
+
+ .carousel-caption{top:100px;}
+}
+
+
+
+@media only screen and (min-width:700px) and (max-width:850px){
+
+ .carousel-caption{top:175px;}
+}
+
+
+
+@media only screen and (min-width:851px){
+
+ .carousel-caption{top:235px;}
+ .carousel-indicators{positon:relative;
+ top:450px;}
+}
+
+
+@media only screen and (max-width:350px){
+#howItWorks h3 {font-size:24px;}
+#howItWorksHead {padding:10px; height:120px;}
+}
+
+
+@media only screen and (min-width:816px) and (max-width:1499px){
+  #howItWorks h3{
+    font-size: 30px;
+    }
+
+#howItWorksHead{
+
+  height:100px;
+
+
+}
+
+#howItWorksHead h3{
+
+    font-size: 31px;
+
+}
+    #howItWorksHead p a{
+    font-size: 22px;
+
+    }
+}
+
+/*
+@media only screen and (min-width:851px) and (max-width:1200px){
+
+ .carousel-caption{top:250px;}
+}*/
